@@ -1,0 +1,17 @@
+Este es un txt
+
+<?php 
+                //lectura de un archivo
+                $archivo="texto.txt";
+                $abierto=fopen($archivo, "r"); 
+                $contenido=fread($abierto, filesize($archivo));
+                echo $contenido;
+
+                //escritura en un archivo
+                $archivo="archivo.txt";
+                $contenido="hola";
+                $crear=fopen($archivo, 'w');
+                fwrite($crear,$contenido);
+                fclose($crear);
+
+            ?>     

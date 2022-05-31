@@ -1,0 +1,118 @@
+body{
+  
+  background: #D66D75;
+  background: -webkit-linear-gradient(to right, #E29587, #D66D75);
+  background: linear-gradient(to right, #E29587, #D66D75);
+
+  text-align: center;
+}
+
+body .input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+
+.line-1{
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    width: 9em;
+    margin-top: 90px !important;
+    margin-bottom: 35px !important;
+    margin: auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 350%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(18) 1s 1 normal both,
+             blinkTextCursor 500ms steps(18) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 9em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.navbar{
+  width: 100px;
+  margin: 30px 0 0 1300px;
+}
+
+.navbar a{
+  font-size: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.instru{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.text{
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 50px !important;
+  width: 80%;
+  margin: auto;
+  background-color: #e47c85;
+  border: solid 1px #000
+}
+
+#text-correct{
+  color: #19a814;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+#text-inco{
+  color: red;
+    text-decoration: underline;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+#barra li:hover{
+  font-style: italic;
+  background-color: #e27c50;
+  border-radius: 10px;
+}
+
+#barra i:hover{
+  font-style: italic;
+}
+
+.difi{
+  font-size: 25px;
+  padding: 5px;
+  width: 160px;
+  margin: auto;
+  display: inline-block;
+  margin-left: -5px;
+  background-color: #D66D75;
+  border: 0px;
+}
+
+.difi:hover{
+  background-color: #eb4250;
+}
+
+.botones{
+    margin: auto;
+    width: 320px;    
+}
+
+input[type=radio] {
+  border: 0px;
+  width: 2%;
+  height: 18px;
+}
